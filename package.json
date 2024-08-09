@@ -1,4 +1,5 @@
 {
+  "author": "JB",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -8,13 +9,13 @@
     "request": "^2.88.2",
     "sequelize": "^6.6.2"
   },
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
   "name": "api_active",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "JB",
-  "license": "ISC",
-  "description": ""
+  }
 }

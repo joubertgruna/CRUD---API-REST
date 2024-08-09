@@ -185,7 +185,7 @@ app.get('/', (req, res)=>{ //Definindo a rota principal
 })
 
 //iniciando o servidor 
-app.listen(9090, (erro)=>{ //Definindo a porta de escuta do servidor e passando variável erro
+app.listen(3000, (erro)=>{ //Definindo a porta de escuta do servidor e passando variável erro
     if(erro){  // Se acontecer algum erro cai nessa condição
         console.log('Erro - Internal server error 500!')//Enviando codigo de status 500
     }else{ // Se não acontecer erro nem um cai nessa condição
